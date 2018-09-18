@@ -4,5 +4,5 @@ def fact(n):
     else:
         return n * fact(n-1)
 
-n = int(input())
-print(fact(n))
+n = int(input("n 팩토리얼의 값을 구해줍니다. n을 입력하세요 : "))
+print("값은 : " + str(fact(n)))
